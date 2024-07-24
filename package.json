@@ -1,0 +1,17 @@
+{
+  "name": "jotter",
+  "version": "1.0.0",
+  "description": "Simple Mac App to jot down small notes to avoid forgetting any detail!!",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Vaibhav Dashore",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^31.2.1"
+  },
+  "dependencies": {
+    "menubar": "^9.5.0"
+  }
+}

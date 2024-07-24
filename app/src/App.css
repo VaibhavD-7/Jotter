@@ -1,0 +1,84 @@
+.container {
+  width: 250px;
+  height: 600px;
+  max-width: 250px;
+  max-height: 600px;
+  display: flex;
+  flex-direction: column;
+  background-color: #eae7dc;
+  padding: 10px 10px 0;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.container::-webkit-scrollbar {
+  display: none;
+}
+
+.input {
+  width: 80%;
+  height: 35px;
+  border-radius: 10px;
+  padding-left: 10px;
+  background-color: transparent;
+  border: 2px solid #ac8968;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.add-button {
+  background-color: transparent;
+  border: 2px solid #ac8968;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.clear-button {
+  margin-top: 10px;
+  height: 30px;
+  border: transparent;
+  background-color: #ac8968;
+  border-radius: 10px;
+  color: #eae7dc;
+}
+
+.list-container {
+  margin-top: 10px;
+  background-color: transparent;
+  border: 2px solid #ac8968;
+  padding: 10px;
+  height: 80%;
+  border-radius: 10px;
+  overflow-y: auto;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.list-container::-webkit-scrollbar {
+  display: none;
+}
+
+.list-item {
+  display: flex;
+  justify-content: space-between;
+  width: calc(100%-10px);
+  height: max-content;
+  text-wrap: wrap;
+  background-color: transparent;
+  border: 2px solid #ac8968;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  padding: 5px 5px;
+}
+
+.minus-button {
+  font-size: 16px;
+  border-radius: 5px;
+  background-color: transparent;
+  border: 2px solid #ac8968;
+  max-height: 30px;
+}
